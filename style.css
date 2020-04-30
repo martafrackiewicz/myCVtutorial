@@ -47,21 +47,62 @@ h1 {
   margin: 1em 0;
 }
 
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 main {
   max-width: 1140px;
 }
 
+main section {
+  border-bottom: 1px solid silver;
+}
+
+main section:last-child{
+  border-bottom: none;
+}
+
 .course {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .course .title {
+  font-weight: bold;
+  color: #509e98;
+  flex: 0 0 33.3%;
+  max-width: 33.3%;
 }
 
-.course .descrition {
+.course .description {
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+
+.course .description p {
+  padding-left: 1em;
+  margin-top: 0;
 }
 
 .school span {
-  color: #A7B8BF;
+  color: #999999;
+}
+
+.projects a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.projects a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.projects a:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 footer {
