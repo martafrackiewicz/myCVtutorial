@@ -64,7 +64,7 @@ main section:last-child{
   border-bottom: none;
 }
 
-.course {
+.course, .skills {
   display: flex;
   flex-wrap: wrap;
 }
@@ -84,6 +84,36 @@ main section:last-child{
 .course .description p {
   padding-left: 1em;
   margin-top: 0;
+}
+
+.skills .column {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.skills h4 {
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 10px;
+}
+
+ul li:before {
+  content: "►";
+  color: #29C6A6;
+  padding-right: 0.5em;
+}
+
+.fa-bookmark:before {
+  margin-right: 1em;
+  color: #509e98;
 }
 
 .school span {
