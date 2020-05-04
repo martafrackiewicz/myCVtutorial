@@ -118,6 +118,15 @@ ul li:before {
 
 .school span {
   color: #999999;
+  text-decoration: underline;
+}
+
+.school {
+  text-transform: capitalize;
+}
+
+.education .description {
+  margin-left: 2em;
 }
 
 .projects a:link {
