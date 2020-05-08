@@ -140,21 +140,23 @@ ul {
   margin-left: 2em;
 }
 
-.projects a:link {
+.projects a:link, .projects a:visited {
   color: black;
   text-decoration: none;
 }
 
-.projects a:visited {
-  color: black;
-  text-decoration: none;
-}
-
-.projects a:hover {
-  color: black;
-  text-decoration: underline;
+a:hover {
+  opacity: 0.5;
 }
 
 footer {
  padding: 1em;
+ text-align: right;
+ background: #A7B8BF;
+ color: white;
+}
+
+footer a {
+  color: #B9E4E0;
+  text-decoration: none;
 }
