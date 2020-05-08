@@ -98,14 +98,14 @@ main section:last-child{
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
 }
 
 li {
   margin: 10px;
 }
 
-ul li:before {
+.skills .column ul li:before, .projects ul li:before {
   content: "►";
   color: #29C6A6;
   padding-right: 0.5em;
@@ -114,6 +114,12 @@ ul li:before {
 .fa-bookmark:before {
   margin-right: 1em;
   color: #72A49A;
+}
+
+.description ul li:before {
+  content: "✔";
+  color: #29C6A6;
+  padding-right: 0.5em;
 }
 
 .school span {
