@@ -101,7 +101,7 @@ ul {
   list-style-type: none;
 }
 
-li {
+.skills .column li {
   margin: 10px;
 }
 
@@ -114,6 +114,11 @@ li {
 .fa-bookmark:before {
   margin-right: 1em;
   color: #72A49A;
+}
+
+.description ul {
+  padding-top: 1em;
+  padding-left: 2em;
 }
 
 .description ul li:before {
