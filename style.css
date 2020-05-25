@@ -116,6 +116,19 @@ ul {
   color: #72A49A;
 }
 
+header .fab {
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+
+}
+
 .description ul {
   padding-top: 1em;
   padding-left: 2em;
