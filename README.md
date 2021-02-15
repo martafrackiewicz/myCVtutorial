@@ -1,4 +1,4 @@
-# My CV - project
+# CV Website - project
 
 CV project based on tutorial [Fly Nerd](https://www.flynerd.pl/): [CV w HTML / CSS](https://www.flynerd.pl/2018/07/stworz-cv-w-html-i-css-krok-po-kroku.html)
 
